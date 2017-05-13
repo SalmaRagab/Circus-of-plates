@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.media.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.GridPane?>
+
+<GridPane prefHeight="650.0" prefWidth="1001.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <rowConstraints>
+      <RowConstraints maxHeight="60.0" minHeight="0.0" percentHeight="50.0" prefHeight="30.0" />
+      <RowConstraints maxHeight="60.0" minHeight="0.0" percentHeight="50.0" prefHeight="30.0" />
+   </rowConstraints>
+   <columnConstraints>
+      <ColumnConstraints maxWidth="10.0" minWidth="10.0" percentWidth="50.0" prefWidth="100.0" />
+      <ColumnConstraints maxWidth="10.0" minWidth="10.0" percentWidth="50.0" prefWidth="100.0" />
+      <ColumnConstraints minWidth="10.0" percentWidth="50.0" prefWidth="100.0" />
+   </columnConstraints>
+   <children>
+      <Button ellipsisString="&gt;" mnemonicParsing="false" prefHeight="19.0" prefWidth="12.0" text="Button" GridPane.columnIndex="2" />
+      <ImageView fitHeight="326.0" fitWidth="333.0" pickOnBounds="true" smooth="false" GridPane.columnIndex="1" />
+   </children>
+</GridPane>

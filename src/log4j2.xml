@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration status="ERROR">
+    <Appenders>
+        <File name="File" fileName="logging.log" append="true">
+            <PatternLayout>
+                <pattern>
+                    %d [%-5p] %F:%t - %m%n
+                </pattern>
+            </PatternLayout>
+        </File>
+		 <!-- <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout>
+                <pattern>
+                    %d [%-5p] %F:%t - %m%n
+                </pattern>
+            </PatternLayout>
+        </Console> -->
+    </Appenders>
+   
+    <Loggers>
+        <Logger name="objects.classes.ball.states" level="INFO" additivity="false">
+           <AppenderRef ref="File"/>
+		   <!-- <AppenderRef ref="Console"/> -->
+        </Logger>
+        <Logger name="additionalObjects" level="INFO" additivity="false">
+           <AppenderRef ref="File"/>
+		   <!-- <AppenderRef ref="Console"/> -->
+        </Logger>
+                <Logger name="controller" level="INFO" additivity="false">
+           <AppenderRef ref="File"/>
+		   <!-- <AppenderRef ref="Console"/> -->
+        </Logger>
+           <Logger name="gameMemento" level="INFO" additivity="false">
+           <AppenderRef ref="File"/>
+		   <!-- <AppenderRef ref="Console"/> -->
+        </Logger>
+                   <Logger name="object" level="INFO" additivity="false">
+           <AppenderRef ref="File"/>
+		   <!-- <AppenderRef ref="Console"/> -->
+        </Logger>
+                   <Logger name="observer" level="INFO" additivity="false">
+           <AppenderRef ref="File"/>
+		   <!-- <AppenderRef ref="Console"/> -->
+        </Logger>
+                   <Logger name="saveANDload" level="INFO" additivity="false">
+           <AppenderRef ref="File"/>
+		   <!-- <AppenderRef ref="Console"/> -->
+        </Logger>
+                   <Logger name="score" level="INFO" additivity="false">
+           <AppenderRef ref="File"/>
+		   <!-- <AppenderRef ref="Console"/> -->
+        </Logger>
+        
+    </Loggers>
+ 
+</configuration>

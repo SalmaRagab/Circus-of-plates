@@ -1,0 +1,39 @@
+<?xml version="1.1"?>
+<list>
+  <linked-hash-map>
+    <entry>
+      <string>name</string>
+      <string>Player_1</string>
+    </entry>
+    <entry>
+      <string>score</string>
+      <int>0</int>
+    </entry>
+    <entry>
+      <string>xposition</string>
+      <int>679</int>
+    </entry>
+    <entry>
+      <string>yposition</string>
+      <int>436</int>
+    </entry>
+    <entry>
+      <string>imagepath</string>
+      <sun.nio.fs.WindowsPath>
+        <fs>
+          <provider>
+            <theFileSystem reference="../.."/>
+          </provider>
+          <defaultDirectory>D:\csed\programming\java\neon-projects\CircusOfPlates</defaultDirectory>
+          <defaultRoot>D:\</defaultRoot>
+          <supportsLinks>true</supportsLinks>
+          <supportsStreamEnumeration>true</supportsStreamEnumeration>
+        </fs>
+        <type>RELATIVE</type>
+        <root></root>
+        <path>resources\players\images\NormalPlayer\Joy3.png</path>
+        <hash>0</hash>
+      </sun.nio.fs.WindowsPath>
+    </entry>
+  </linked-hash-map>
+</list>
